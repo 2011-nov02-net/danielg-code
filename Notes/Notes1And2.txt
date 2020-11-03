@@ -1,15 +1,15 @@
 What is .NET
     Managed code 
-Code runs in a special runtime env. 
-This env handles low level things automatically
-Programming langs(many)
-C#
-Visual basic 
-F#
-C++, Java, Python 
-Interoperability
-More than one language can go in one project
-Cross platform
+    Code runs in a special runtime env. 
+        This env handles low level things automatically
+    Programming langs(many)
+    C#
+    Visual basic 
+    F#
+    C++, Java, Python 
+    Interoperability
+        More than one language can go in one project
+    Cross platform
 Windows, Mac, Linux,etc…
 Getting started with .NET
 Pick an implementation 
