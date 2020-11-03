@@ -1,0 +1,89 @@
+What is .NET
+    Managed code 
+Code runs in a special runtime env. 
+This env handles low level things automatically
+Programming langs(many)
+C#
+Visual basic 
+F#
+C++, Java, Python 
+Interoperability
+More than one language can go in one project
+Cross platform
+Windows, Mac, Linux,etc…
+Getting started with .NET
+Pick an implementation 
+We use .NET core 3.1 
+Install .NET Core SDK
+To compile and run C#/.NET
+Want a good dev. Env. 
+Linux-style command line(like bash)
+Win: Git Bash/ Git for Windows
+Nothing for macs to do
+Version control  (Git)
+IDE
+We use Visual Studio and VS Code 
+Right now
+Install .NET Core SDK, Git for Windows, VS Code
+
+Terminal commands
+pwd, cd, -h, 
+Something like $mkdir -v tells you what is happening when you are doing things.
+In this example, it would explain that a directory was made
+Made a revature directory in the desktop and the user directory
+Not sure which one is better 
+Seems like he told us to make the directory in the user directory but i want to do the desktop one
+
+For vs code, change settings based on what you want it to look like
+
+
+
+Study .NET maybe and definitely do some C# reading up on before the exam 
+
+Terminal commands 
+So far 
+Dotnet
+Git
+ls
+Cd
+Newish
+cd <dir>
+ls <dir>
+mkdir <dir>
+Rm
+Remove
+Rm -r
+Recursively delete directory
+Delete a directory with its contents
+mv <path1> <path2>
+Remove or rename
+touch <path>
+Create an empty file
+pwd
+Print working directory
+Echo <something>
+Prints something
+Works with variables or contents of files
+.. 
+Parent directory
+.
+Current directory 
+Ex- “explorer .” on windows opens file explorer to current folder
+Absolute paths
+Start with /
+Same no matter current folder
+
+
+Relative paths 
+Dont start with /
+variables , $
+filename34 = myfile.text
+touch $filename34
+Anytime a dollar sign there is a variable referenced. The above example created a var then created an empty file called that var 
+Helpful with things like configuration 
+PATH
+Finds path 
+echo $PATH 
+Prints long path
+
+
