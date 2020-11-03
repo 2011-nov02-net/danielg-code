@@ -1,0 +1,5 @@
+bin
+obj
+
+
+#whenever you make a new git repository, think about .gitignore before you track files you dont need to track
