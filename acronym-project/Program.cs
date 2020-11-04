@@ -16,7 +16,6 @@ namespace acronym_project
 
             for (int i = 0; i < split.Length; i++)
             {
-                //Console.WriteLine(split[i]);
                 string thisWord = split[i];
                 output += thisWord[0];
             }
@@ -24,12 +23,6 @@ namespace acronym_project
             Console.WriteLine("Here is your Acronym: (" + output + ")");
            
             Console.WriteLine();
-
-
-
         }
-
-
-
     }
 }

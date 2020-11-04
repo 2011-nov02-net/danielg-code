@@ -10,29 +10,29 @@ What is .NET
     Interoperability
         More than one language can go in one project
     Cross platform
-Windows, Mac, Linux,etc…
-Getting started with .NET
-Pick an implementation 
-We use .NET core 3.1 
-Install .NET Core SDK
-To compile and run C#/.NET
-Want a good dev. Env. 
-Linux-style command line(like bash)
-Win: Git Bash/ Git for Windows
-Nothing for macs to do
-Version control  (Git)
-IDE
-We use Visual Studio and VS Code 
-Right now
-Install .NET Core SDK, Git for Windows, VS Code
+        Windows, Mac, Linux,etc…
+    Getting started with .NET
+        Pick an implementation 
+        We use .NET core 3.1 
+        Install .NET Core SDK
+            To compile and run C#/.NET
+        Want a good dev. Env. 
+            Linux-style command line(like bash)
+            Win: Git Bash/ Git for Windows
+                Nothing for macs to do
+            Version control  (Git)
+        IDE
+            We use Visual Studio and VS Code 
+        Right now
+            Install .NET Core SDK, Git for Windows, VS Code
 
 Terminal commands
-pwd, cd, -h, 
-Something like $mkdir -v tells you what is happening when you are doing things.
-In this example, it would explain that a directory was made
-Made a revature directory in the desktop and the user directory
-Not sure which one is better 
-Seems like he told us to make the directory in the user directory but i want to do the desktop one
+    pwd, cd, -h, 
+    Something like $mkdir -v tells you what is happening when you are doing things.
+        In this example, it would explain that a directory was made
+    Made a revature directory in the desktop and the user directory
+        Not sure which one is better 
+        Seems like he told us to make the directory in the user directory but i want to do the desktop one
 
 For vs code, change settings based on what you want it to look like
 
@@ -41,49 +41,94 @@ For vs code, change settings based on what you want it to look like
 Study .NET maybe and definitely do some C# reading up on before the exam 
 
 Terminal commands 
-So far 
-Dotnet
-Git
-ls
-Cd
-Newish
-cd <dir>
-ls <dir>
-mkdir <dir>
-Rm
-Remove
-Rm -r
-Recursively delete directory
-Delete a directory with its contents
-mv <path1> <path2>
-Remove or rename
-touch <path>
-Create an empty file
-pwd
-Print working directory
-Echo <something>
-Prints something
-Works with variables or contents of files
-.. 
-Parent directory
-.
-Current directory 
-Ex- “explorer .” on windows opens file explorer to current folder
-Absolute paths
-Start with /
-Same no matter current folder
+    So far 
+        Dotnet
+        Git
+        ls
+        Cd
+    Newish
+        cd <dir>
+        ls <dir>
+        mkdir <dir>
+        Rm
+            Remove
+        Rm -r
+            Recursively delete directory
+            Delete a directory with its contents
+        mv <path1> <path2>
+            Remove or rename
+        touch <path>
+            Create an empty file
+        pwd
+            Print working directory
+        Echo <something>
+            Prints something
+            Works with variables or contents of files
+        .. 
+            Parent directory
+        .
+            Current directory 
+            Ex- “explorer .” on windows opens file explorer to current folder
+        Absolute paths
+            Start with /
+            Same no matter current folder
 
 
-Relative paths 
-Dont start with /
-variables , $
-filename34 = myfile.text
-touch $filename34
-Anytime a dollar sign there is a variable referenced. The above example created a var then created an empty file called that var 
-Helpful with things like configuration 
-PATH
-Finds path 
-echo $PATH 
-Prints long path
+        Relative paths 
+            Dont start with /
+        variables , $
+            var = "myfile.text"
+            touch $var
+            echo $var
+            Anytime a dollar sign there is a variable referenced. The above example created a var then created an empty file called that var 
+            Helpful with things like configuration 
+        PATH
+            Finds path 
+            echo $PATH 
+                Prints long path
+
+AFTER LUNCH 11/3 (2nd day)
+In console application projects, (created with dotnet new) runtime looks for Main method
+
+projects contain classes
+    classes are blueprints for objects 
+classes contains members e.g. methods
+    method is sequence of statements run one after the other
+    it can have inputs and outputs
+
+variables in C# with types 
+    type of variable is set when the variable is created. cant be changed after 
+
+types  
+    whole numbers
+        int- 4 bytes, max = 2 billion
+        short- 2 bytes 
+        byte - 1 byte
+        long - 8 bytes. use if numbers could be larger than 2 billion pos or negative
+
+
+    fractional numbers  
+        double- 8 bytes. use this most of the time with non whole
+        float- 4 bytes. less precise than double 
+        decimal- 16 bytes. 
+
+    for true/false
+        bool
+
+    for text   
+        char
+        string
+    
+    
+in c#, every type inherits type object
+    this allows you to do things like compare or check if equal or call .toString()
+    exception of null, null is the default value for reference type variables 
+
+literal value
+    one that you type direcctly on the screen. typing the right syntax to get a value of that kind
+    int j = 0
+    int i=1
+    Console.Write("#");
+
 
 
