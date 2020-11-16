@@ -235,8 +235,8 @@ ClientBin/
 orleans.codegen.cs
 
 
-#Files added by me-------------
-*.gitIgnorePrac.txt
+#Files added by me----------------------------------------------------------------------------------------------------
+
 /gitIgnore.txt
 *.gitIgnore.txt
 gitIgnore.txt

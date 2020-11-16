@@ -28,8 +28,7 @@ namespace EfDbFirstDemo.ConsoleApp
 
             //Can have multiple log to-- write serious stuff one place, lesss serious stuff elsewhere
             optionsBuilder.LogTo(logStream.Write, LogLevel.Information);
-
-
+            
             s_dBContextOptions = optionsBuilder.Options;
 
            // Display5Tracks();
