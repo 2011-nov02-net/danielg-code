@@ -1,5 +1,5 @@
 # Step 1- choose image with dependiecnies to copy in 
-FROM mcr.microsoft.com/dotnet/runtime:5.0
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 
 WORKDIR /app
 # Step 2 - copy that thing in
