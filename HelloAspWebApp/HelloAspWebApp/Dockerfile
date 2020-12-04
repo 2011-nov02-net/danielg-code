@@ -6,5 +6,6 @@ WORKDIR /app
 COPY . ./
 RUN dotnet publish -c Release -o out
 
+ENV ASPNETCORE_URLS http://*:80
 
 ENTRYPOINT ["dotnet", "out/HelloAspWebApp.dll"]
