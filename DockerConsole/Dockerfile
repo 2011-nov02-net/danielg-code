@@ -11,7 +11,7 @@ RUN dotnet publish -o publish
 # Step 3 - configure it with the command it will use to start containers
 #CMD dotnet /app/DockerConsole.dll
 
-CMD dontnet publish/DockerConsole.dll
+CMD dotnet publish/DockerConsole.dll
 # how to use this docker file?
 # 1) docker publish -o publish
 # 2) docker build -t docker-console .
