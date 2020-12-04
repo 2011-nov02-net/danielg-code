@@ -65,12 +65,17 @@ namespace HelloAspWebApp
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/localFile", async (context) =>
-                {
-                    string fp = "/Users/danielgrant/Desktop/danielg-code/HelloAspWebApp/HelloAspWebApp/PracticePath.html";
-                    string htmlFile = System.IO.File.ReadAllText(fp);
-                    await context.Response.WriteAsync(htmlFile);
-                });
+
+                endpoints.MapControllerRoute(
+                       name: "default",
+                       pattern: "{controller=Home}/{action=Index}/{id?}"
+                       );
+                //endpoints.MapGet("/localFile", async (context) =>
+                //{
+                //    string fp = "/Users/danielgrant/Desktop/danielg-code/HelloAspWebApp/HelloAspWebApp/PracticePath.html";
+                //    string htmlFile = System.IO.File.ReadAllText(fp);
+                //    await context.Response.WriteAsync(htmlFile);
+                //});
                 //ASP.NET Core MVC is when we use a specific subset of middlewares/classes/practices
                 //     within ASP.NET Core as a whole
                 // Give it a name so you can refer to it
