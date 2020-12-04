@@ -1,0 +1,25 @@
+@page
+@model HelloAspWebApp.Views.HomeModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Home</h1>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+@*
+ This is a razor view.
+    The razor view engine processes files like this, turns them into html.(view execution/view rendering)
+    razor syntax is its own thing, than can combine C# and HTML into a file
+
+    in general, in a razor view, C# is denoted by the @ in some way. everything else is HTML
+*@
+
+
+<html>
+<head></head>
+<body>HELLO FROM HELLOASPWEBAPPHOME.CSHTML @(2+2) @DateTime.Now </body>
+</html>
