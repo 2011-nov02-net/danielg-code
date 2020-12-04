@@ -9,5 +9,5 @@ CMD dotnet /app/DockerConsole.dll
 
 # how to use this docker file?
 # 1) docker publish -o publish
-# 2) dotnet build -t docker-console .
+# 2) docker build -t docker-console .
 # 3) docker run docker-console
