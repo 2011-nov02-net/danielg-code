@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBook.Api", "NoteBook.Api\NoteBook.Api.csproj", "{451D33AF-351F-408B-90AA-DFDC8355D2F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{451D33AF-351F-408B-90AA-DFDC8355D2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451D33AF-351F-408B-90AA-DFDC8355D2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451D33AF-351F-408B-90AA-DFDC8355D2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451D33AF-351F-408B-90AA-DFDC8355D2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7559B1DB-5A14-4B8E-BBDD-F073320D8D5E}
+	EndGlobalSection
+EndGlobal
